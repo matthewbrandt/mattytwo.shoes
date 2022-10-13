@@ -10,36 +10,6 @@
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
     <link rel="stylesheet" href="src/style.css">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <script type="text/javascript" async=1>
-
-        ;(function(p,l,o,w,i,n,g){
-          if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
-          p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
-          };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
-          n.src=w;g.parentNode.insertBefore(n,g)}
-        }(
-          window,
-          document,
-          "script",
-          "https://2a7cb7a4-d72c-49c6-a653-90f10d8954bd.app.try-snowplow.com/try.js",
-          "snowplow")
-        );
-
-        snowplow("newTracker", "mattyplows", "2a7cb7a4-d72c-49c6-a653-90f10d8954bd.app.try-snowplow.com", {
-          appId: "mattytwoshoes",
-          platform: "web",
-          forceSecureTracker: true,
-          contexts: {
-            webPage: true,
-            performanceTiming: true
-          }
-        });
-        
-        // send first heartbeat after 10 seconds, and every 10 seconds thereafter
-        snowplow("enableActivityTracking", 5, 10); 
-        snowplow("enableLinkClickTracking"); 
-        snowplow("trackPageView"); 
-        </script>
 </head>
 
 <body class="is-boxed has-animations lights-off">
