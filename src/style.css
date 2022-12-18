@@ -1769,6 +1769,10 @@ main {
     flex: 1 0 auto
 }
 
+thankyou {
+    display: block;
+}
+
 .section-inner {
     position: relative;
     padding-top: 48px;
