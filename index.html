@@ -1,227 +1,413 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name='ir-site-verification-token' value='-2082182496'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="ir-site-verification-token" value="-2082182496" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>welcome | matthew brandt</title>
-    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
-    <link rel="stylesheet" href="src/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet" />
+    <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-</head>
+    <script src="https://the-claw-webring-widget.netlify.app/the-claw-webring-widget.mjs" type="module"></script>
+  </head>
 
-<body class="is-boxed has-animations lights-off">
+  <body class="is-boxed has-animations lights-off">
     <div class="body-wrap boxed-container">
-        <!-- <header class="site-header">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1>
-                        </h1>
-                    </div>
+      <!-- <header class="site-header">
+                        <div class="container">
+                                <div class="site-header-inner">
+                                        <div class="brand header-brand">
+                                                <h1>
+                                                </h1>
+                                        </div>
+                                </div>
+                        </div>
+                </header> -->
+      <main>
+        <section class="hero">
+          <div class="container">
+            <div class="hero-inner">
+              <div class="hero-copy">
+                <h1 class="hero-title mt-0">Hi. I'm Matthew Brandt.</h1>
+                <p class="hero-paragraph">I also go by Matty. Or just use my online handle @mattytwoshoes.</p>
+                <p>I'm a Data Person & Entrepreneur!</p>
+                <div class="hero-cta">
+                  <a class="button button-primary" href="#patreon">support me</a>
+                  <div class="lights-toggle">
+                    <input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked" />
+                    <label for="lights-toggle" class="text-xs">
+                      <span>
+                        <span class="label-text"></span>
+                        mil. lumens
+                      </span>
+                    </label>
+                  </div>
                 </div>
+              </div>
+              <div class="hero-media">
+                <div class="header-illustration">
+                  <img
+                    class="header-illustration-image asset-light"
+                    src="src/img/header-illustration-light.svg"
+                    alt="Header illustration"
+                  />
+                  <img
+                    class="header-illustration-image asset-dark"
+                    src="src/img/header-illustration-dark.svg"
+                    alt="Header illustration"
+                  />
+                </div>
+                <div class="hero-media-illustration">
+                  <img
+                    class="hero-media-illustration-image asset-light"
+                    src="src/img/hero-media-illustration-light.svg"
+                    alt="Hero media illustration"
+                  />
+                  <img
+                    class="hero-media-illustration-image asset-dark"
+                    src="src/img/hero-media-illustration-dark.svg"
+                    alt="Hero media illustration"
+                  />
+                </div>
+                <div class="hero-media-container">
+                  <img class="hero-media-image asset-light" src="src/img/hero-image.png" alt="Hero media" />
+                  <img class="hero-media-image asset-dark" src="src/img/hero-image.png" alt="Hero media" />
+                </div>
+              </div>
             </div>
-        </header> -->
-        <main>
-            <section class="hero">
-                <div class="container">
-                    <div class="hero-inner">
-                        <div class="hero-copy">
-                            <h1 class="hero-title mt-0">Hi. I'm Matthew Brandt.</h1>
-                            <p class="hero-paragraph">I also go by Matty. Or just use my online handle @mattytwoshoes.</p>
-                            <p>I'm a Data Person & Entrepreneur!</p>
-                            <div class="hero-cta">
-                                <a class="button button-primary" href="#patreon">support me</a>
-                                <div class="lights-toggle">
-                                    <input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked">
-                                    <label for="lights-toggle" class="text-xs"><span><span class="label-text"></span> mil. lumens</span></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="hero-media">
-                            <div class="header-illustration">
-                                <img class="header-illustration-image asset-light" src="src/img/header-illustration-light.svg" alt="Header illustration">
-                                <img class="header-illustration-image asset-dark" src="src/img/header-illustration-dark.svg" alt="Header illustration">
-                            </div>
-                            <div class="hero-media-illustration">
-                                <img class="hero-media-illustration-image asset-light" src="src/img/hero-media-illustration-light.svg" alt="Hero media illustration">
-                                <img class="hero-media-illustration-image asset-dark" src="src/img/hero-media-illustration-dark.svg" alt="Hero media illustration">
-                            </div>
-                            <div class="hero-media-container">
-                                <img class="hero-media-image asset-light" src="src/img/hero-image.png" alt="Hero media">
-                                <img class="hero-media-image asset-dark" src="src/img/hero-image.png" alt="Hero media">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="features section">
-                <div class="container">
-                    <div class="features-inner section-inner has-bottom-divider">
-                        <div class="features-header text-center">
-                            <div class="container-sm">
-                                <h2 id="section-title mt-0" class="section-title mt-0">Who Am I?</h2>
-                                <p class="section-paragraph">Although it may be a philosophical question, here are the facts.</p>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <img alt="Illustration of a retro computer with two joysticks in front of it" role="img" class="asset-light" src="src/img/skill.svg">
-                                        <img alt="Illustration of a retro computer with two joysticks in front of it" role="img" class="asset-dark" src="src/img/skill.svg">
-                                    </div>
-                                    <div class="feature-content">
-                                        <h3 class="feature-title mt-0">Skill 
-                                        </h3>
-                                        <p class="text-sm mb-0">For over 10 years I have worked with 50+ companies to create tracking concepts, oversee and work on analytics implementations, build reporting stacks and perform analysis of the data for different business
-                                            stakeholders. The last few years I have been embedded deeper into SaaS and additionally finding ways to operationalise data for different teams. Currently I am seeking a new full-time opportunity after shutting down my startup.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <img alt="Illustration of a one-armed, green-topped, brown-pants bearded stick man waving his left arm, standing next to a desk with a computer on top of it" role="img" class="asset-light" src="src/img/self.svg">
-                                        <img alt="Illustration of a one-armed, green-topped, brown-pants bearded stick man waving his left arm, standing next to a desk with a computer on top of it" role="img" class="asset-dark" src="src/img/self.svg">
-                                    </div>
-                                    <div class="feature-content">
-                                        <h3 class="feature-title mt-0">Self</h3>
-                                        <p class="text-sm mb-0">I am a Data Generalist, which is why I sometimes use the term Full-Stack Analyst*. All facets of the analytics spectrum excite me, whether
-                                            it's ideation with stakeholders, requirements engineering, writing specifications for technical implementations or JavaScript to support data collection, collaborating with data scientists to create data products, coding queries in SQL to analyse data or building reports and dashboards to help people make smarter decisions.</p>
-                                        <p class="text-sm mb-0 mb-1">*I cannot take credit for the term itself, which comes from <a href="https://www.fullstackanalyst.io/the-full-stack-analyst/?r=mbr" target="_blank">Frederik Werner</a>.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <img alt="Illustration of an microscope pointed at its base with a beaker in the background with a slightly bubbling liquid" role="img" class="asset-light" src="src/img/side-projects.svg">
-                                        <img alt="Illustration of an microscope pointed at its base with a beaker in the background with a slightly bubbling liquid" role="img" class="asset-dark" src="src/img/side-projects.svg">
-                                    </div>
-                                    <div class="feature-content">
-                                        <h3 class="feature-title mt-0">Side-Projects</h3>
-                                        <p class="text-sm mb-0">As part of livestreaming (see below), I spend a lot of time building little sideprojects to practice programming as well as solve problems, either for me or for others. You can see what kinds of things I have built <a href="./side-projects.html">here!</a>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <img alt="Illustration of a white old-school rollerskate with four red wheels and black shoelaces facing the right" role="img" class="asset-light" src="src/img/school.svg">
-                                        <img alt="Illustration of a white old-school rollerskate with four red wheels and black shoelaces facing the right" role="img" class="asset-dark" src="src/img/school.svg">
-                                    </div>
-                                    <div class="feature-content">
-                                        <h3 class="feature-title mt-0">School</h3>
-                                        <p class="text-sm mb-0">Having a B.Sc. in International Hospitality Management doesn't have much to do with analytics - but I approach problems with a service and customer-first mentality, which people I work with appreciate. I believe learning
-                                            is a lifelong process and therefore my formal education is only a small part of the knowledge and skills I carry.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <img alt="Illustration of a retro computer with two joysticks in front of it" role="img" class="asset-light" src="src/img/startup.svg">
-                                        <img alt="Illustration of a retro computer with two joysticks in front of it" role="img" class="asset-dark" src="src/img/startup.svg">
-                                    </div>
-                                    <div class="feature-content">
-                                        <h3 class="feature-title mt-0">Shutdown</h3>
-                                        <p class="text-sm mb-0"><a href="https://cookeat.ch" target="_blank">Cook Eat</a> was the idea of an online peer-to-peer marketplace for homecooked meals. Together with my co-founder <a href="https://www.linkedin.com/in/elahaney/" rel="nofollow noreferrer" target="_blank">Ela</a> we were trying to solve a problem for over 65% of the population: finding something healthy, inexpensive to eat nearby without cooking for yourself. We shut down our startup in October 2022 due to lack of traction.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="feature is-revealing">
-                                <div class="feature-inner">
-                                    <div class="feature-icon">
-                                        <img alt="Illustration of an older CRT-style black television with a blue screen with two antennae on top pointing roughly at 45 degrees" role="img" class="asset-light" src="src/img/streaming.svg">
-                                        <img alt="Illustration of an older CRT-style black television with a blue screen with two antennae on top pointing roughly at 45 degrees" role="img" class="asset-dark" src="src/img/streaming.svg">
-                                    </div>
-                                    <div class="feature-content">
-                                        <h3 class="feature-title mt-0">Streaming</h3>
-                                        <p class="text-sm mb-0">Since December 2020, I have been livestreaming twice a week on Twitch. With my streams, I hope to learn and educate the global community about data & analytics. As formal education opportunities to enter this field
-                                            are few and far between (and lagging several years behind the current state), I feel like this is a great opportunity to foster a better understanding of data.</p>
-                                        <p class="text-sm mb-0 mb-1">I am proud to be part of a lovely streaming community known as <a href="https://theclaw.team" target="_blank">The Claw</a>.</p>
-                                    </div>
-
-                                </div>
-                            </div>                            
-                        </div>
-                        <!-- Add a placeholder for the Twitch embed -->
-                        <div id="twitch-embed" class="twitch-video"></div>
-                    </div>
-                </div>
-            </section>
-            <section class="cta section">
+          </div>
+        </section>
+        <section class="features section">
+          <div class="container">
+            <div class="features-inner section-inner has-bottom-divider">
+              <div class="features-header text-center">
                 <div class="container-sm">
-                    <div class="cta-inner section-inner">
-                        <div class="cta-header text-center">
-                            <h2 id="patreon" class="section-title mt-0">Support me on Patreon!</h2>
-                            <p class="section-paragraph">You can support the work I am doing by pledging to my Patreon! There are various rewards like early-access to my content, a Tier 1 Twitch subscription and even monthly 1:1 calls with me where you can ask anything you like.</p>
-                            <div class="cta-cta">
-                                <a class="button button-primary" href="https://www.patreon.com/mattytwoshoes">To Patreon!</a>
-                            </div>
-                        </div>
-                    </div>
+                  <h2 id="section-title mt-0" class="section-title mt-0">Who Am I?</h2>
+                  <p class="section-paragraph">Although it may be a philosophical question, here are the facts.</p>
                 </div>
-            </section>
-        </main>
-        <footer class="site-footer has-top-divider">
-            <div class="container">
-                <div class="site-footer-inner">
-                    <div class="brand footer-brand">
-                        <a href="#">
-                            <img class="footer-logo asset-light" src="src/img/logo.png" alt="Logo">
-                            <img class="footer-logo asset-dark" src="src/img/logo.png" alt="Logo">
+                <div class="feature is-revealing">
+                  <div class="feature-inner">
+                    <div class="feature-icon">
+                      <img
+                        alt="Illustration of a retro computer with two joysticks in front of it"
+                        role="img"
+                        class="asset-light"
+                        src="src/img/skill.svg"
+                      />
+                      <img
+                        alt="Illustration of a retro computer with two joysticks in front of it"
+                        role="img"
+                        class="asset-dark"
+                        src="src/img/skill.svg"
+                      />
+                    </div>
+                    <div class="feature-content">
+                      <h3 class="feature-title mt-0">Skill</h3>
+                      <p class="text-sm mb-0">
+                        For over 10 years I have worked with 50+ companies to create tracking concepts, oversee and work
+                        on analytics implementations, build reporting stacks and perform analysis of the data for
+                        different business stakeholders. The last few years I have been embedded deeper into SaaS and
+                        additionally finding ways to operationalise data for different teams. Currently I am seeking a
+                        new full-time opportunity after shutting down my startup.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="feature is-revealing">
+                  <div class="feature-inner">
+                    <div class="feature-icon">
+                      <img
+                        alt="Illustration of a one-armed, green-topped, brown-pants bearded stick man waving his left arm, standing next to a desk with a computer on top of it"
+                        role="img"
+                        class="asset-light"
+                        src="src/img/self.svg"
+                      />
+                      <img
+                        alt="Illustration of a one-armed, green-topped, brown-pants bearded stick man waving his left arm, standing next to a desk with a computer on top of it"
+                        role="img"
+                        class="asset-dark"
+                        src="src/img/self.svg"
+                      />
+                    </div>
+                    <div class="feature-content">
+                      <h3 class="feature-title mt-0">Self</h3>
+                      <p class="text-sm mb-0">
+                        I am a Data Generalist, which is why I sometimes use the term Full-Stack Analyst*. All facets of
+                        the analytics spectrum excite me, whether it's ideation with stakeholders, requirements
+                        engineering, writing specifications for technical implementations or JavaScript to support data
+                        collection, collaborating with data scientists to create data products, coding queries in SQL to
+                        analyse data or building reports and dashboards to help people make smarter decisions.
+                      </p>
+                      <p class="text-sm mb-0 mb-1">
+                        *I cannot take credit for the term itself, which comes from
+                        <a href="https://www.fullstackanalyst.io/the-full-stack-analyst/?r=mbr" target="_blank">
+                          Frederik Werner
                         </a>
+                        .
+                      </p>
                     </div>
-                    <ul class="footer-links list-reset">
-                        <!--  <li>
-                            <a href="/legal">Legal Schmegal</a>
-                        </li> -->
-                    </ul>
-                    <ul class="footer-social-links">
-                        <li>
-                            <a aria-label="Matthew Brandt on Patreon" href="https://www.patreon.com/mattytwoshoes">
-                                <svg class="patreon" fill="#fff" width="24px" height="24px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><title>Patreon icon</title><path d="M15.386.524c-4.764 0-8.64 3.876-8.64 8.64 0 4.75 3.876 8.613 8.64 8.613 4.75 0 8.614-3.864 8.614-8.613C24 4.4 20.136.524 15.386.524M.003 23.537h4.22V.524H.003"/></svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a aria-label="Matthew Brandt on LinkedIn" href="https://linkedin.com/in/mattytwoshoes">
-                                <svg class="linkedin" fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z" /></svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a aria-label="Matty_TwoShoes on Twitch.tv" href="https://twitch.tv/matty_twoshoes">
-                                <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 512 512"><path fill="#fff" d="M391.17,103.47H352.54v109.7h38.63ZM285,103H246.37V212.75H285ZM120.83,0,24.31,91.42V420.58H140.14V512l96.53-91.42h77.25L487.69,256V0ZM449.07,237.75l-77.22,73.12H294.61l-67.6,64v-64H140.14V36.58H449.07Z"></path></svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a aria-label="Matthew Brandt on YouTube" href="https://www.youtube.com/c/mattytwoshoes">
-                                <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 448 512"><path fill="#fff" d="M186.8 202.1l95.2 54.1-95.2 54.1V202.1zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-42 176.3s0-59.6-7.6-88.2c-4.2-15.8-16.5-28.2-32.2-32.4C337.9 128 224 128 224 128s-113.9 0-142.2 7.7c-15.7 4.2-28 16.6-32.2 32.4-7.6 28.5-7.6 88.2-7.6 88.2s0 59.6 7.6 88.2c4.2 15.8 16.5 27.7 32.2 31.9C110.1 384 224 384 224 384s113.9 0 142.2-7.7c15.7-4.2 28-16.1 32.2-31.9 7.6-28.5 7.6-88.1 7.6-88.1z"></path></svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a aria-label="Matthew Brandt on Github" href="https://github.com/matthewbrandt">
-                                <svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 448 512"><path fill="#fff" d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM277.3 415.7c-8.4 1.5-11.5-3.7-11.5-8 0-5.4.2-33 .2-55.3 0-15.6-5.2-25.5-11.3-30.7 37-4.1 76-9.2 76-73.1 0-18.2-6.5-27.3-17.1-39 1.7-4.3 7.4-22-1.7-45-13.9-4.3-45.7 17.9-45.7 17.9-13.2-3.7-27.5-5.6-41.6-5.6-14.1 0-28.4 1.9-41.6 5.6 0 0-31.8-22.2-45.7-17.9-9.1 22.9-3.5 40.6-1.7 45-10.6 11.7-15.6 20.8-15.6 39 0 63.6 37.3 69 74.3 73.1-4.8 4.3-9.1 11.7-10.6 22.3-9.5 4.3-33.8 11.7-48.3-13.9-9.1-15.8-25.5-17.1-25.5-17.1-16.2-.2-1.1 10.2-1.1 10.2 10.8 5 18.4 24.2 18.4 24.2 9.7 29.7 56.1 19.7 56.1 19.7 0 13.9.2 36.5.2 40.6 0 4.3-3 9.5-11.5 8-66-22.1-112.2-84.9-112.2-158.3 0-91.8 70.2-161.5 162-161.5S388 165.6 388 257.4c.1 73.4-44.7 136.3-110.7 158.3zm-98.1-61.1c-1.9.4-3.7-.4-3.9-1.7-.2-1.5 1.1-2.8 3-3.2 1.9-.2 3.7.6 3.9 1.9.3 1.3-1 2.6-3 3zm-9.5-.9c0 1.3-1.5 2.4-3.5 2.4-2.2.2-3.7-.9-3.7-2.4 0-1.3 1.5-2.4 3.5-2.4 1.9-.2 3.7.9 3.7 2.4zm-13.7-1.1c-.4 1.3-2.4 1.9-4.1 1.3-1.9-.4-3.2-1.9-2.8-3.2.4-1.3 2.4-1.9 4.1-1.5 2 .6 3.3 2.1 2.8 3.4zm-12.3-5.4c-.9 1.1-2.8.9-4.3-.6-1.5-1.3-1.9-3.2-.9-4.1.9-1.1 2.8-.9 4.3.6 1.3 1.3 1.8 3.3.9 4.1zm-9.1-9.1c-.9.6-2.6 0-3.7-1.5s-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3 1.1 1.5 1.1 3.3 0 4.1zm-6.5-9.7c-.9.9-2.4.4-3.5-.6-1.1-1.3-1.3-2.8-.4-3.5.9-.9 2.4-.4 3.5.6 1.1 1.3 1.3 2.8.4 3.5zm-6.7-7.4c-.4.9-1.7 1.1-2.8.4-1.3-.6-1.9-1.7-1.5-2.6.4-.6 1.5-.9 2.8-.4 1.3.7 1.9 1.8 1.5 2.6z"></path></svg>
-                            </a>
-                        </li>
-                    </ul>
-                    <div class="footer-copyright">&copy; Matthew Brandt aka mattytwoshoes</div>
+                  </div>
                 </div>
+                <div class="feature is-revealing">
+                  <div class="feature-inner">
+                    <div class="feature-icon">
+                      <img
+                        alt="Illustration of an microscope pointed at its base with a beaker in the background with a slightly bubbling liquid"
+                        role="img"
+                        class="asset-light"
+                        src="src/img/side-projects.svg"
+                      />
+                      <img
+                        alt="Illustration of an microscope pointed at its base with a beaker in the background with a slightly bubbling liquid"
+                        role="img"
+                        class="asset-dark"
+                        src="src/img/side-projects.svg"
+                      />
+                    </div>
+                    <div class="feature-content">
+                      <h3 class="feature-title mt-0">Side-Projects</h3>
+                      <p class="text-sm mb-0">
+                        As part of livestreaming (see below), I spend a lot of time building little sideprojects to
+                        practice programming as well as solve problems, either for me or for others. You can see what
+                        kinds of things I have built
+                        <a href="./side-projects.html">here!</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="feature is-revealing">
+                  <div class="feature-inner">
+                    <div class="feature-icon">
+                      <img
+                        alt="Illustration of a white old-school rollerskate with four red wheels and black shoelaces facing the right"
+                        role="img"
+                        class="asset-light"
+                        src="src/img/school.svg"
+                      />
+                      <img
+                        alt="Illustration of a white old-school rollerskate with four red wheels and black shoelaces facing the right"
+                        role="img"
+                        class="asset-dark"
+                        src="src/img/school.svg"
+                      />
+                    </div>
+                    <div class="feature-content">
+                      <h3 class="feature-title mt-0">School</h3>
+                      <p class="text-sm mb-0">
+                        Having a B.Sc. in International Hospitality Management doesn't have much to do with analytics -
+                        but I approach problems with a service and customer-first mentality, which people I work with
+                        appreciate. I believe learning is a lifelong process and therefore my formal education is only a
+                        small part of the knowledge and skills I carry.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="feature is-revealing">
+                  <div class="feature-inner">
+                    <div class="feature-icon">
+                      <img
+                        alt="Illustration of a retro computer with two joysticks in front of it"
+                        role="img"
+                        class="asset-light"
+                        src="src/img/startup.svg"
+                      />
+                      <img
+                        alt="Illustration of a retro computer with two joysticks in front of it"
+                        role="img"
+                        class="asset-dark"
+                        src="src/img/startup.svg"
+                      />
+                    </div>
+                    <div class="feature-content">
+                      <h3 class="feature-title mt-0">Shutdown</h3>
+                      <p class="text-sm mb-0">
+                        <a href="https://cookeat.ch" target="_blank">Cook Eat</a>
+                        was the idea of an online peer-to-peer marketplace for homecooked meals. Together with my
+                        co-founder
+                        <a href="https://www.linkedin.com/in/elahaney/" rel="nofollow noreferrer" target="_blank">
+                          Ela
+                        </a>
+                        we were trying to solve a problem for over 65% of the population: finding something healthy,
+                        inexpensive to eat nearby without cooking for yourself. We shut down our startup in October 2022
+                        due to lack of traction.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="feature is-revealing">
+                  <div class="feature-inner">
+                    <div class="feature-icon">
+                      <img
+                        alt="Illustration of an older CRT-style black television with a blue screen with two antennae on top pointing roughly at 45 degrees"
+                        role="img"
+                        class="asset-light"
+                        src="src/img/streaming.svg"
+                      />
+                      <img
+                        alt="Illustration of an older CRT-style black television with a blue screen with two antennae on top pointing roughly at 45 degrees"
+                        role="img"
+                        class="asset-dark"
+                        src="src/img/streaming.svg"
+                      />
+                    </div>
+                    <div class="feature-content">
+                      <h3 class="feature-title mt-0">Streaming</h3>
+                      <p class="text-sm mb-0">
+                        Since December 2020, I have been livestreaming twice a week on Twitch. With my streams, I hope
+                        to learn and educate the global community about data & analytics. As formal education
+                        opportunities to enter this field are few and far between (and lagging several years behind the
+                        current state), I feel like this is a great opportunity to foster a better understanding of
+                        data.
+                      </p>
+                      <p class="text-sm mb-0 mb-1">
+                        I am proud to be part of a lovely streaming community known as
+                        <a href="https://theclaw.team" target="_blank">The Claw</a>
+                        .
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Add a placeholder for the Twitch embed -->
+              <div id="twitch-embed" class="twitch-video"></div>
             </div>
-        </footer>
+          </div>
+        </section>
+        <section class="cta section">
+          <div class="container-sm">
+            <div class="cta-inner section-inner">
+              <div class="cta-header text-center">
+                <h2 id="patreon" class="section-title mt-0">Support me on Patreon!</h2>
+                <p class="section-paragraph">
+                  You can support the work I am doing by pledging to my Patreon! There are various rewards like
+                  early-access to my content, a Tier 1 Twitch subscription and even monthly 1:1 calls with me where you
+                  can ask anything you like.
+                </p>
+                <div class="cta-cta">
+                  <a class="button button-primary" href="https://www.patreon.com/mattytwoshoes">To Patreon!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="site-footer has-top-divider">
+        <div class="container">
+          <div class="site-footer-inner">
+            <div class="brand footer-brand">
+              <a href="#">
+                <img class="footer-logo asset-light" src="src/img/logo.png" alt="Logo" />
+                <img class="footer-logo asset-dark" src="src/img/logo.png" alt="Logo" />
+              </a>
+            </div>
+            <div class="the-claw-webring-widget">
+              <the-claw-webring-widget theme="dark" hideMembers="true"></the-claw-webring-widget>
+            </div>
+            <ul class="footer-social-links">
+              <li>
+                <a aria-label="Matthew Brandt on Patreon" href="https://www.patreon.com/mattytwoshoes">
+                  <svg
+                    class="patreon"
+                    fill="#fff"
+                    width="24px"
+                    height="24px"
+                    viewBox="0 0 24 24"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Patreon icon</title>
+                    <path
+                      d="M15.386.524c-4.764 0-8.64 3.876-8.64 8.64 0 4.75 3.876 8.613 8.64 8.613 4.75 0 8.614-3.864 8.614-8.613C24 4.4 20.136.524 15.386.524M.003 23.537h4.22V.524H.003"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a aria-label="Matthew Brandt on LinkedIn" href="https://linkedin.com/in/mattytwoshoes">
+                  <svg
+                    class="linkedin"
+                    fill="#fff"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M19,19H16V13.7A1.5,1.5 0 0,0 14.5,12.2A1.5,1.5 0 0,0 13,13.7V19H10V10H13V11.2C13.5,10.36 14.59,9.8 15.5,9.8A3.5,3.5 0 0,1 19,13.3M6.5,8.31C5.5,8.31 4.69,7.5 4.69,6.5A1.81,1.81 0 0,1 6.5,4.69C7.5,4.69 8.31,5.5 8.31,6.5A1.81,1.81 0 0,1 6.5,8.31M8,19H5V10H8M20,2H4C2.89,2 2,2.89 2,4V20A2,2 0 0,0 4,22H20A2,2 0 0,0 22,20V4C22,2.89 21.1,2 20,2Z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a aria-label="Matty_TwoShoes on Twitch.tv" href="https://twitch.tv/matty_twoshoes">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    width="24"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      fill="#fff"
+                      d="M391.17,103.47H352.54v109.7h38.63ZM285,103H246.37V212.75H285ZM120.83,0,24.31,91.42V420.58H140.14V512l96.53-91.42h77.25L487.69,256V0ZM449.07,237.75l-77.22,73.12H294.61l-67.6,64v-64H140.14V36.58H449.07Z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a aria-label="Matthew Brandt on YouTube" href="https://www.youtube.com/c/mattytwoshoes">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    width="24"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      fill="#fff"
+                      d="M186.8 202.1l95.2 54.1-95.2 54.1V202.1zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-42 176.3s0-59.6-7.6-88.2c-4.2-15.8-16.5-28.2-32.2-32.4C337.9 128 224 128 224 128s-113.9 0-142.2 7.7c-15.7 4.2-28 16.6-32.2 32.4-7.6 28.5-7.6 88.2-7.6 88.2s0 59.6 7.6 88.2c4.2 15.8 16.5 27.7 32.2 31.9C110.1 384 224 384 224 384s113.9 0 142.2-7.7c15.7-4.2 28-16.1 32.2-31.9 7.6-28.5 7.6-88.1 7.6-88.1z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a aria-label="Matthew Brandt on Github" href="https://github.com/matthewbrandt">
+                  <svg
+                    aria-hidden="true"
+                    focusable="false"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    width="24"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      fill="#fff"
+                      d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM277.3 415.7c-8.4 1.5-11.5-3.7-11.5-8 0-5.4.2-33 .2-55.3 0-15.6-5.2-25.5-11.3-30.7 37-4.1 76-9.2 76-73.1 0-18.2-6.5-27.3-17.1-39 1.7-4.3 7.4-22-1.7-45-13.9-4.3-45.7 17.9-45.7 17.9-13.2-3.7-27.5-5.6-41.6-5.6-14.1 0-28.4 1.9-41.6 5.6 0 0-31.8-22.2-45.7-17.9-9.1 22.9-3.5 40.6-1.7 45-10.6 11.7-15.6 20.8-15.6 39 0 63.6 37.3 69 74.3 73.1-4.8 4.3-9.1 11.7-10.6 22.3-9.5 4.3-33.8 11.7-48.3-13.9-9.1-15.8-25.5-17.1-25.5-17.1-16.2-.2-1.1 10.2-1.1 10.2 10.8 5 18.4 24.2 18.4 24.2 9.7 29.7 56.1 19.7 56.1 19.7 0 13.9.2 36.5.2 40.6 0 4.3-3 9.5-11.5 8-66-22.1-112.2-84.9-112.2-158.3 0-91.8 70.2-161.5 162-161.5S388 165.6 388 257.4c.1 73.4-44.7 136.3-110.7 158.3zm-98.1-61.1c-1.9.4-3.7-.4-3.9-1.7-.2-1.5 1.1-2.8 3-3.2 1.9-.2 3.7.6 3.9 1.9.3 1.3-1 2.6-3 3zm-9.5-.9c0 1.3-1.5 2.4-3.5 2.4-2.2.2-3.7-.9-3.7-2.4 0-1.3 1.5-2.4 3.5-2.4 1.9-.2 3.7.9 3.7 2.4zm-13.7-1.1c-.4 1.3-2.4 1.9-4.1 1.3-1.9-.4-3.2-1.9-2.8-3.2.4-1.3 2.4-1.9 4.1-1.5 2 .6 3.3 2.1 2.8 3.4zm-12.3-5.4c-.9 1.1-2.8.9-4.3-.6-1.5-1.3-1.9-3.2-.9-4.1.9-1.1 2.8-.9 4.3.6 1.3 1.3 1.8 3.3.9 4.1zm-9.1-9.1c-.9.6-2.6 0-3.7-1.5s-1.1-3.2 0-3.9c1.1-.9 2.8-.2 3.7 1.3 1.1 1.5 1.1 3.3 0 4.1zm-6.5-9.7c-.9.9-2.4.4-3.5-.6-1.1-1.3-1.3-2.8-.4-3.5.9-.9 2.4-.4 3.5.6 1.1 1.3 1.3 2.8.4 3.5zm-6.7-7.4c-.4.9-1.7 1.1-2.8.4-1.3-.6-1.9-1.7-1.5-2.6.4-.6 1.5-.9 2.8-.4 1.3.7 1.9 1.8 1.5 2.6z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-copyright">&copy; Matthew Brandt aka mattytwoshoes</div>
+        </div>
+      </footer>
     </div>
     <script type="module" src="src/js/main.js"></script>
     <script src="https://player.twitch.tv/js/embed/v1.js"></script>
     <script type="text/javascript">
-        new Twitch.Player("twitch-embed", {
-            channel: "matty_twoshoes",
-            muted: true,
-            height: 360,
-            width: 720
-        });
+      new Twitch.Player("twitch-embed", {
+        channel: "matty_twoshoes",
+        muted: true,
+        height: 360,
+        width: 720,
+      });
     </script>
-</body>
-
+  </body>
 </html>
