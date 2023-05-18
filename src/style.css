@@ -1785,6 +1785,74 @@ thankyou {
     }
 }
 
+.speaking-card {
+    width: 100%;
+}
+
+.speaking-date {
+    background: linear-gradient(to bottom, #5ae7c4, #535fd7);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    color: #fff;
+    min-width: 190px;
+}
+
+.speaking-date-date {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.speaking-date-time {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.speaking-title {
+    border-bottom: solid 2px #5763d8;
+    padding-left: 20px;
+    flex-grow: 1;
+}
+
+.speaking-event-button {
+    margin: 20px 0 20px 0;
+}
+
+.speaking-reversed {
+    flex-direction: row-reverse;
+}
+
+.speaking-reversed .speaking-title {
+    padding-left: 0;
+    padding-right: 20px;
+    border-bottom: solid 2px #F5BD32;
+}
+
+.speaking-reversed .button-primary {
+    background-color: #F5BD32;
+    color: #182538 !important;
+}
+
+.speaking-reversed .speaking-date {
+    background: linear-gradient(to bottom, #EFCCFB, #F5BD32);
+    color: #182538;
+}
+
+@media (max-width: 641px) {
+    .speaking-date {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .speaking-title {
+        padding: 20px 0 20px 0;
+    
+    }
+}
+
 .site-footer {
     font-size: 14px;
     line-height: 20px;
