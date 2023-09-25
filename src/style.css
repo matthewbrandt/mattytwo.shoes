@@ -1853,6 +1853,75 @@ thankyou {
     }
 }
 
+.setup-section-title {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+.setup-card {
+    width: 100%;
+}
+
+.setup-item-image {
+    border-bottom: 2px solid #5763d8;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    min-width: 190px;
+}
+
+@media (max-width: 641px) {
+    .setup-item-image {
+        border: none;
+        padding-bottom: 20px;
+    }
+}
+
+.setup-item-image img {
+    border-radius: 2px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    max-width: 300px;
+}
+
+@media (max-width: 641px) {
+    .setup-item-image img {
+        max-width: none;
+    }
+}
+
+.setup-title {
+    border-bottom: solid 2px #5763d8;
+    padding-left: 20px;
+    flex-grow: 1;
+    position: relative;
+}
+
+.setup-item-button {
+    margin: 20px 0 20px 0;
+}
+
+.setup-reversed {
+    flex-direction: row-reverse;
+}
+
+.setup-reversed .setup-item-image {
+    border-color: #F5BD32;
+}
+
+.setup-reversed .setup-title {
+    padding-left: 0;
+    padding-right: 20px;
+    border-bottom: solid 2px #F5BD32;
+}
+
+.setup-reversed .button-primary {
+    background-color: #F5BD32;
+    color: #182538 !important;
+}
+
 .site-footer {
     font-size: 14px;
     line-height: 20px;
