@@ -1855,7 +1855,7 @@ thankyou {
 
 .setup-section-title {
     text-decoration-line: underline;
-    text-decoration-style: double;
+    text-decoration-color: #755acd;
 }
 
 .setup-card {
@@ -1886,12 +1886,6 @@ thankyou {
     max-width: 300px;
 }
 
-@media (max-width: 641px) {
-    .setup-item-image img {
-        max-width: none;
-    }
-}
-
 .setup-title {
     border-bottom: solid 2px #5763d8;
     padding-left: 20px;
@@ -1920,6 +1914,19 @@ thankyou {
 .setup-reversed .button-primary {
     background-color: #F5BD32;
     color: #182538 !important;
+}
+
+@media (max-width: 641px) {
+    .setup-item-image img {
+        max-width: none;
+    }
+    .setup-title {
+        padding-left: 0;
+    }
+    .setup-section-title {
+        text-align: center;
+        padding-top: 20px;
+    }
 }
 
 .site-footer {
