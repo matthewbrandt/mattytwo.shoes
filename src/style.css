@@ -1916,6 +1916,15 @@ thankyou {
     color: #182538 !important;
 }
 
+.sponsor-form-input {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.sponsor-form-textarea {
+    width: 100%;
+}
+
 @media (max-width: 641px) {
     .setup-item-image img {
         max-width: none;
