@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="src/style.css" />
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script src="https://the-claw-webring-widget.netlify.app/the-claw-webring-widget.mjs" type="module"></script>
+    <script src="src/js/data.mjs" type="module"></script>
   </head>
 
-  <body class="is-boxed has-animations lights-off">
+  <body data-schnitzelglobals="pagetype:home" class="is-boxed has-animations lights-off">
     <div class="body-wrap boxed-container">
       <!-- <header class="site-header">
                         <div class="container">
@@ -33,8 +34,8 @@
                 <p class="hero-paragraph">Some people call me Matty or @mattytwoshoes, my online handle.</p>
                 <p>I make data taste better!</p>
                 <div class="hero-cta">
-                  <a class="button button-primary" href="#patreon">support me</a>
-                  <div class="lights-toggle">
+                  <a data-schnitzel="hero-cta" data-schnitzelaction="click" class="button button-primary" href="#patreon">support me</a>
+                  <div data-schnitzel="hero-toggle" data-schnitzelaction="click" class="lights-toggle">
                     <input id="lights-toggle" type="checkbox" name="lights-toggle" class="switch" checked="checked" />
                     <label for="lights-toggle" class="text-xs">
                       <span>
@@ -156,13 +157,13 @@
                         src="src/img/side-projects.svg"
                       />
                     </div>
-                    <div class="feature-content">
+                    <div data-schnitzel="side-projects" class="feature-content">
                       <h3 class="feature-title mt-0">Side-Projects</h3>
                       <p class="text-sm mb-0">
                         As part of livestreaming, I spend a lot of time on sideprojects to
                         practice programming, level up my data skills and solve problems, either for me or for others. You can see what
                         kinds of things I have built
-                        <a href="./side-projects.html">here!</a>
+                        <a data-schnitzelaction="click" href="./side-projects.html">here!</a>
                       </p>
                     </div>
                   </div>
@@ -183,10 +184,10 @@
                         src="src/img/speaking.svg"
                       />
                     </div>
-                    <div class="feature-content">
+                    <div data-schnitzel="speaking" class="feature-content">
                       <h3 class="feature-title mt-0">Speaking</h3>
                       <p class="text-sm mb-0">
-                        If you're interested in hearing me talk about data, livestreaming or building things, then <a href="/speaking.html" rel="nofollow noreferrer">
+                        If you're interested in hearing me talk about data, livestreaming or building things, then <a data-schnitzelaction="click" href="/speaking.html" rel="nofollow noreferrer">
                           check out this page</a> for any events I'm attending or speaking at in the future!
                       </p>
                     </div>
@@ -208,10 +209,10 @@
                         src="src/img/setup.svg"
                       />
                     </div>
-                    <div class="feature-content">
+                    <div data-schnitzel="setup" class="feature-content">
                       <h3 class="feature-title mt-0">Setup</h3>
                       <p class="text-sm mb-0">
-                        Lots of people ask me what gear and software I use for both work and building things. I put together this <a href="/setup.html" rel="nofollow noreferrer">page</a> for you to have an easy to way to see it all!
+                        Lots of people ask me what gear and software I use for both work and building things. I put together this <a data-schnitzelaction="click" href="/setup.html" rel="nofollow noreferrer">page</a> for you to have an easy to way to see it all!
                       </p>
                     </div>
                   </div>
@@ -259,15 +260,15 @@
                         src="src/img/streaming.svg"
                       />
                     </div>
-                    <div class="feature-content">
+                    <div data-schnitzel="streaming-media" class="feature-content">
                       <h3 class="feature-title mt-0">Streaming</h3>
                       <p class="text-sm mb-0">
                         Since December 2020, I have been livestreaming multiple times weekly on Twitch. With my streams, I learn and educate the global community about data & analytics. As formal education opportunities to enter this field are few and far between (and lagging several years behind the current state), this is a great opportunity to foster a better understanding of
-                        data. If you're a brand interested in working with me, check out <a href="/sponsorship.html" target="_blank">my media kit</a>!
+                        data. If you're a brand interested in working with me, check out <a data-schnitzelaction="click" href="/sponsorship.html" target="_blank">my media kit</a>!
                       </p>
-                      <p class="text-sm mb-0 mb-1">
+                      <p data-schnitzel="streaming-team" class="text-sm mb-0 mb-1">
                         I am proud to be part of a lovely streaming community known as
-                        <a href="https://theclaw.team" target="_blank">The Claw</a>
+                        <a data-schnitzelaction="click" href="https://theclaw.team" target="_blank">The Claw</a>
                         .
                       </p>
                     </div>
@@ -275,11 +276,11 @@
                 </div>
               </div>
               <!-- Add a placeholder for the Twitch embed -->
-              <div id="twitch-embed" class="twitch-video"></div>
+              <div id="twitch-embed" class="twitch-video" data-schnitzel="twitchplayer" data-schnitzelaction="click"></div>
             </div>
           </div>
         </section>
-        <section class="cta section">
+        <section class="cta section" data-schnitzel="support">
           <div class="container-sm">
             <div class="cta-inner section-inner">
               <div class="cta-header text-center">
@@ -290,7 +291,7 @@
                   can ask anything you like.
                 </p>
                 <div class="cta-cta">
-                  <a class="button button-primary" href="https://www.patreon.com/mattytwoshoes">To Patreon!</a>
+                  <a class="button button-primary" href="https://www.patreon.com/mattytwoshoes" data-schnitzelaction="click">To Patreon!</a>
                 </div>
               </div>
             </div>
