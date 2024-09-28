@@ -1841,6 +1841,20 @@ thankyou {
     color: #182538;
 }
 
+.speaking-past .button-primary {
+    background-color: #6b6b6b;
+    color: #182538 !important;
+}
+
+.speaking-past .speaking-date {
+    background: linear-gradient(to bottom, #fafafa, #6b6b6b);
+    color: #182538;
+}
+
+.speaking-past .speaking-title {
+    border-bottom: solid 2px #6b6b6b;
+}
+
 @media (max-width: 641px) {
     .speaking-date {
         padding-top: 20px;
