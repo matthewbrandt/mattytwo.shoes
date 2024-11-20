@@ -1960,6 +1960,10 @@ thankyou {
     color: #6b7a90;
 }
 
+.site-footer ul {
+    padding-left: 0px;
+}
+
 .site-footer a {
     color: #6b7a90;
     text-decoration: none;
