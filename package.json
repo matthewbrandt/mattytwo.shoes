@@ -4,6 +4,7 @@
   "description": "My personal website.",
   "main": "index.html",
   "scripts": {
+    "serve": "http-server -c-1",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/matthewbrandt/mattytwo.shoes/issues"
   },
-  "homepage": "https://github.com/matthewbrandt/mattytwo.shoes#readme"
+  "homepage": "https://github.com/matthewbrandt/mattytwo.shoes#readme",
+  "dependencies": {
+    "@elbwalker/walker.js": "^2.1.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
 }
